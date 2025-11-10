@@ -1,0 +1,2 @@
+Fork adresi: https://github.com/MustafaEP/mcino-Introduction-to-Git-and-GitHub
+Branches: https://github.com/MustafaEP/mcino-Introduction-to-Git-and-GitHub/branches
