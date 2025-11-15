@@ -138,106 +138,76 @@ Bu repository eğitim amaçlıdır ve IBM Full Stack Software Developer Professi
 
 ## 🔗 İletişim
 
-Sorularınız veya önerileriniz için issue açabilirsiniz.
+# IBM Full Stack Software Developer — Notlar ve Laboratuvarlar
+
+Bu repository, IBM Full Stack Software Developer sertifika programı kapsamında oluşturduğum ders notları, laboratuvar projeleri ve çalışma örneklerini içerir. İçerik Türkçe hazırlanmıştır ve proje klasörleri çalışma örnekleriyle birlikte düzenlenmiştir.
+
+**Kısa açıklama:** Kurs boyunca öğrendiğim konuları, uygulama örneklerini ve AI asistanı ile yaptığım teknik notları organize etmek için oluşturulmuştur.
+
+**Önemli:** Bu repo bir eğitim arşividir; üretim amaçlı dağıtıma uygun değildir.
+
+## Hızlı Başlangıç
+
+- **Gereksinimler:** `node` (v16+ önerilir) ve `npm` (React/Vite projeleri için). HTML/JS örnekleri için ek bir araç gerekmez.
+- HTML projelerini bir tarayıcıda açarak çalıştırabilirsiniz.
+- React (Vite) projelerini çalıştırmak için proje klasöründe:
+
+```
+cd <react-proje-klasoru>
+npm install
+npm run dev
+```
+
+Örneğin `React ile Frontend/Labaratuvar/myfirstapp/` içindeyseniz:
+
+```
+cd "React ile Frontend/Labaratuvar/myfirstapp"
+npm install
+npm run dev
+```
+
+Windows PowerShell kullanıyorsanız komutları aynı şekilde çalıştırabilirsiniz; birden fazla komut yazarken `;` ile ayırabilirsiniz.
+
+## Proje Yapısı (Özet)
+
+- `Yazılım Mühendisliğine Giriş/` — Ders notları ve PDF materyaller.
+- `Git ve Githuba Giriş/` — Git alıştırmaları ve laboratuvar örnekleri (`git-final/` gibi).
+- `HTML, CSS ve JavaScript'e Giriş/` — Temel HTML/CSS/JS örnekleri ve laboratuvar projeleri (form validasyonu, basit faiz hesaplayıcı, DOM manipülasyonu, responsive tasarımlar vb.).
+- `React ile Frontend/` — Vite/React tabanlı örnek uygulamalar (her proje içinde `package.json` bulunur).
+- `Bulut Bilişime Giriş/` — Bulut teknolojileriyle ilgili ders notları ve PDF'ler.
+
+Klasörlerin içinde README veya ilgili açıklamalar bulunabilir; her laboratuvar klasörü kendi talimatlarını barındırır.
+
+## Nasıl Çalıştırılır — Kısa Rehber
+
+- HTML / JS projeleri:
+  - Dosyayı doğrudan bir tarayıcıda açın veya Visual Studio Code kullanıyorsanız `Live Server` eklentisi ile servis edin.
+
+- React (Vite) projeleri:
+  - Proje klasörüne gidin, `npm install` ile bağımlılıkları kurun, `npm run dev` ile yerel geliştirme sunucusunu başlatın.
+
+- Git kullanıcıları:
+  - Repoyu klonlayın, değişikliklerinizi ayrı bir branch'te yapın ve Pull Request gönderin.
+
+## Örnekler
+
+- `HTML, CSS ve JavaScript'e Giriş/Labaratuvar/onePagePortfolioWebsite/` — Tek sayfalık portfolyo örneği.
+- `HTML, CSS ve JavaScript'e Giriş/Labaratuvar/simpleInterestApp/` — Basit faiz hesaplayıcı uygulaması.
+- `React ile Frontend/Labaratuvar/myfirstapp/` — İlk React (Vite) uygulaması.
+
+## Katkı (Contribution)
+
+- Küçük düzeltmeler, açıklama iyileştirmeleri için issue açabilirsiniz.
+- Kod katkısı yapmak isterseniz fork → branch → PR akışını kullanın.
+
+## Lisans
+
+Bu repository kişisel öğrenme ve eğitim amaçlıdır. İçeriklerin paylaşımı kişisel kullanım ve eğitim çerçevesinde uygun olup, ticari kullanım için ilgili içeriğin kaynak lisansına bakınız.
+
+## İletişim
+
+- Sorular veya öneriler için GitHub Issues açabilirsiniz.
 
 ---
 
-**Not:** Bu repository, öğrenme sürecimi dokümante etmek ve gelecekte referans olarak kullanmak amacıyla oluşturulmuştur. AI asistanı ile yaptığım sohbetlerden çıkarılan notlar, kişisel öğrenme deneyimimi yansıtmaktadır.
-
----
-
-# IBM Full Stack Software Developer Certificate Program
-
-This repository contains my course notes, laboratory projects, and records of conversations with AI assistants during the IBM Full Stack Software Developer Professional Certificate program.
-
-## 📚 About
-
-This project was created to systematically archive my learnings, applications, and technical conversations with AI assistants during the IBM Full Stack Software Developer Professional Certificate program. Each module includes both my personal notes and important information extracted from my conversations with AI.
-
-## 📁 Project Structure
-
-The repository is organized by modules:
-- Introduction to Software Engineering
-- Introduction to Git and GitHub
-- Introduction to HTML, CSS, and JavaScript
-- Frontend with React
-- Introduction to Cloud Computing
-
-## 🎯 Modules
-
-### 1. Introduction to Software Engineering
-- Programming fundamentals
-- Software development processes
-- Software architecture and design patterns
-- Career opportunities in software engineering
-
-### 2. Introduction to Git and GitHub
-- Git commands and version control
-- GitHub project management
-- Branch management and merge operations
-- **Laboratory:** Git and GitHub applications
-
-### 3. Introduction to HTML, CSS, and JavaScript
-- HTML5 elements and semantic structure
-- CSS styling and responsive design
-- JavaScript programming fundamentals
-- DOM manipulation
-- **Laboratory Projects:**
-  - Form validation
-  - Simple interest calculator
-  - Employee details application
-  - One-page portfolio website
-  - DOM manipulation examples
-  - Responsive design (Bootstrap & Tailwind)
-
-### 4. Frontend with React
-- React component structure
-- State and props management
-- Modern React development
-- **Laboratory:** First React application (myfirstapp)
-
-### 5. Introduction to Cloud Computing
-- Cloud infrastructure and service models
-- Cloud storage solutions
-- Cloud security and monitoring
-- Deployment models
-- Emerging technologies and trends
-
-## 💻 Laboratory Projects
-
-This repository contains laboratory projects for each module:
-- **Git/GitHub:** Version control applications
-- **HTML/CSS/JS:** Various web applications and examples
-- **React:** Modern frontend development projects
-
-Each laboratory project is in its own folder with runnable code examples.
-
-## 🤖 AI Conversations
-
-The notes and explanations in this repository are compiled from technical conversations with AI assistants. My conversations with AI include:
-- Simplified explanations of complex topics
-- Practical examples and code snippets
-- Problem-solving approaches
-- Best practices and tips
-
-## 📝 Notes
-
-- All PDF files contain important notes extracted from course materials
-- HTML examples and laboratory projects are in runnable condition
-- Each module includes both theoretical knowledge and practical applications
-
-## 🚀 Usage
-
-1. Navigate to the relevant module folder
-2. Review PDF files to learn theoretical information
-3. Practice by running projects in the laboratory folder
-4. For HTML/JS projects, simply open them in a web browser
-5. For React projects, use `npm install` and `npm run dev` commands
-
-## 📄 License
-
-This repository is for educational purposes and is part of the IBM Full Stack Software Developer Professional Certificate program.
-
----
-
-**Note:** This repository was created to document my learning process and for future reference. The notes extracted from my conversations with AI assistants reflect my personal learning experience.
+Güncelleme: README, proje klasörlerine ve çalışma talimatlarına odaklanacak şekilde sadeleştirildi ve Türkçe kullanım/çalıştırma rehberi eklendi.
