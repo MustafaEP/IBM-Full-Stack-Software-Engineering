@@ -1,0 +1,5 @@
+Birinci satır
+İkinci satır
+Üçüncü satır
+Dördüncü satır (append ile eklendi)
+Beşinci satır da eklendi
