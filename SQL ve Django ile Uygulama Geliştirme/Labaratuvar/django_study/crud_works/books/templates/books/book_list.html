@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kitap Listesi</title>
+</head>
+<body>
+    <h1>Kitap Listesi</h1>
+
+    <p>
+        <a href="{% url 'book_create' %}">+ Yeni Kitap Ekle</a>
+    </p>
+
+    {% if books %}
+        <table border="1" cellpadding="5">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Kitap Adı</th>
+                    <th>Yazar</th>
+                    <th>Yayın Tarihi</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for book in books %}
+                <tr>
+                    <td>{{ book.id }}</td>
+                    <td>{{ book.title }}</td>
+                    <td>{{ book.author }}</td>
+                    <td>{{ book.published_date }}</td>
+                    <td>
+                        <a href="{% url 'book_update' book.id %}">Düzenle</a> |
+                        <a href="{% url 'book_delete' book.id %}">Sil</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>Henüz hiç kitap yok.</p>
+    {% endif %}
+</body>
+</html>

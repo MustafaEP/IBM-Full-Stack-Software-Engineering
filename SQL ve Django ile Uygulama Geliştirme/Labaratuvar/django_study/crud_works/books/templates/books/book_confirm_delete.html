@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kitabı Sil</title>
+</head>
+<body>
+    <h1>Kitabı Sil</h1>
+
+    <p>
+        "{{ book.title }}" adlı kitabı silmek istediğinizden emin misiniz?
+    </p>
+
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Evet, Sil</button>
+        <a href="{% url 'book_list' %}">Vazgeç</a>
+    </form>
+</body>
+</html>

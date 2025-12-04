@@ -1,0 +1,10 @@
+<h1>Makale Formu</h1>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    <button type="submit">Kaydet</button>
+</form>
+
+<a href="{% url 'article_list' %}">Geri dön</a>

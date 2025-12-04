@@ -1,0 +1,6 @@
+<h1>{{ object.title }}</h1>
+<p>{{ object.content }}</p>
+
+<a href="{% url 'article_update' object.id %}">Düzenle</a>
+<a href="{% url 'article_delete' object.id %}">Sil</a>
+<a href="{% url 'article_list' %}">Geri dön</a>
