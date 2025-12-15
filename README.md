@@ -1,6 +1,6 @@
 # IBM Full Stack Software Developer Sertifika Programı
 
-Bu repository, IBM Full Stack Software Developer sertifika programı kapsamında aldığım ders notları, laboratuvar projeleri ve AI asistanı ile yaptığım sohbetlerin kayıtlarını içermektedir.
+Bu repository, IBM Full Stack Software Developer Professional Certificate programı kapsamında aldığım ders notları, laboratuvar projeleri ve AI asistanı ile yaptığım sohbetlerin kayıtlarını içermektedir.
 
 ## 📚 Hakkında
 
@@ -31,6 +31,10 @@ IBM-Full-Stack-Software-Engineering/
 │   ├── HTML'e Genel Bakış.pdf
 │   ├── Web Uygulamaları için JS Programlama.pdf
 │   ├── HTML/
+│   │   ├── fieldset_legend.html
+│   │   ├── footer.html
+│   │   ├── header.html
+│   │   └── section.html
 │   └── Labaratuvar/
 │       ├── employeeDetails/
 │       ├── form_validation.html
@@ -43,30 +47,101 @@ IBM-Full-Stack-Software-Engineering/
 │       ├── simpleInterestApp/
 │       └── solarsystem.html
 │
-├── React ile Frontend/
-│   ├── React'a Giriş.docx
+├── Node.js ile Backend/
+│   ├── Node.js'e Giriş.pdf
+│   ├── Sunucu Tarafı, JS.pdf
+│   ├── Asenkron Programlama.pdf
+│   ├── Express.pdf
 │   └── Labaratuvar/
-│       └── myfirstapp/
+│       ├── express-Folder-Structure/
+│       ├── expressBookReviews/
+│       ├── lkpho-Cloud-applications-with-Node.js-and-React/
+│       ├── mxpfu-nodejsLabs/
+│       └── nodejs_PracticeProject_AuthUserMgmt/
 │
-└── Bulut Bilişime Giriş/
-    ├── Bulut Altyapısı.pdf
-    ├── Bulut Bilişim için İş Vakası.pdf
-    ├── Bulut Bilişime Genel Bakış.pdf
-    ├── Bulut Depolama.pdf
-    ├── Bulut Güvenliği, İzleme, Vaka Çalışmaları.pdf
-    ├── Bulutun Hızlandırdığı Gelişen Teknolojiler.pdf
-    ├── Dağıtım Modelleri.pdf
-    ├── Hizmet Modülleri.pdf
-    └── Ortaya Çıkan Eğilimler ve Uygulamalar.pdf
+├── Python ve Flask ile Yapay Zeka Uygulamaları Geliştirme/
+│   ├── Python Temelleri.pdf
+│   ├── Python Programlamanın Temelleri.pdf
+│   ├── Python Kodlama ve Paketleme.pdf
+│   ├── Flask ile Web Programlama.pdf
+│   └── Labaratuvar/
+│       ├── final_project/
+│       ├── flask_app/
+│       ├── hjbsk-build_deploy_app_flask/
+│       ├── mymath/
+│       ├── obmnl-flask_assignment/
+│       ├── pylint/
+│       ├── restful_api/
+│       ├── unit_test/
+│       └── welcome101/
+│
+├── React ile Frontend/
+│   ├── React'a Giriş.pdf
+│   ├── Redux'a Giriş.pdf
+│   ├── Detaylı Redux.pdf
+│   ├── Dizi ve DOM Manipülasyonu.pdf
+│   ├── Gelişmiş React İşlevselliği.pdf
+│   └── Labaratuvar/
+│       ├── myfirstapp/
+│       ├── todo_list/
+│       ├── feedback_form/
+│       ├── event_planner/
+│       ├── content_rating/
+│       ├── custom_hook/
+│       ├── e-plantShopping/
+│       ├── ecommerce_rtk/
+│       └── conference_event_planner/
+│
+├── SQL ve Django ile Uygulama Geliştirme/
+│   ├── SQL ve Veritabanları.pdf
+│   ├── ORM, Django.pdf
+│   ├── Full Stack Django.pdf
+│   ├── Django Uygulaması Birleştirme ve Dağıtma.pdf
+│   └── Labaratuvar/
+│       ├── lab1_template/
+│       ├── lab2_template/
+│       ├── lab3_template/
+│       ├── lab4_template/
+│       ├── lab5_template/
+│       ├── simple_orm_project/
+│       ├── ilk_django_projem/
+│       ├── django_study/
+│       ├── django_with_chatgpt/
+│       ├── pratice_project/
+│       └── tfjzl-final-cloud-app-with-database/
+│
+├── Veri Bilimi ve Yapay Zeka için Python/
+│   ├── Python Temelleri.pdf
+│   ├── Python Programlamanın Temelleri.pdf
+│   ├── Python Veri Yapıları.pdf
+│   ├── Veri ile Çalışma.pdf
+│   ├── API'ler ve Veri Toplama.pdf
+│   ├── API'ler ve Veri Toplama.docx
+│   └── Labaratuvar/
+│       └── [Jupyter Notebook dosyaları ve veri setleri]
+│
+├── Bulut Bilişime Giriş/
+│   ├── Bulut Bilişime Genel Bakış.pdf
+│   ├── Bulut Altyapısı.pdf
+│   ├── Dağıtım Modelleri.pdf
+│   ├── Hizmet Modülleri.pdf
+│   ├── Bulut Depolama.pdf
+│   ├── Bulut Güvenliği, İzleme, Vaka Çalışmaları.pdf
+│   ├── Bulutun Hızlandırdığı Gelişen Teknolojiler.pdf
+│   ├── Ortaya Çıkan Eğilimler ve Uygulamalar.pdf
+│   └── Bulut Bilişim için İş Vakası.pdf
+│
+└── Containers, Docker, Kubernetes, OpenShift/
+    └── Containers ve Containerization.docx
 ```
 
 ## 🎯 Modüller
 
 ### 1. Yazılım Mühendisliğine Giriş
 - Programlamanın temelleri
-- Yazılım geliştirme süreçleri
+- Yazılım geliştirme süreçleri ve yaşam döngüsü
 - Yazılım mimarisi ve tasarım kalıpları
-- Yazılım mühendisliği kariyer olanakları
+- Yazılım mühendisliği kariyer olanakları ve beceri setleri
 
 ### 2. Git ve GitHub'a Giriş
 - Git komutları ve versiyon kontrolü
@@ -81,32 +156,106 @@ IBM-Full-Stack-Software-Engineering/
 - DOM manipülasyonu
 - **Laboratuvar Projeleri:**
   - Form validasyonu
-  - Basit faiz hesaplayıcı
-  - Çalışan detayları uygulaması
-  - Tek sayfalık portfolio web sitesi
+  - Basit faiz hesaplayıcı (simpleInterestApp)
+  - Çalışan detayları uygulaması (employeeDetails)
+  - Tek sayfalık portfolio web sitesi (onePagePortfolioWebsite)
   - DOM manipülasyonu örnekleri
   - Responsive tasarım (Bootstrap & Tailwind)
+  - Güneş sistemi animasyonu (solarsystem)
 
-### 4. React ile Frontend
+### 4. Node.js ile Backend
+- Node.js'e giriş ve temel kavramlar
+- Sunucu tarafı JavaScript programlama
+- Asenkron programlama (callback, Promise, async/await)
+- Express.js framework
+- RESTful API geliştirme
+- **Laboratuvar Projeleri:**
+  - Express folder structure
+  - Express book reviews uygulaması
+  - Cloud applications with Node.js and React
+  - Node.js authentication ve user management
+  - HTTP server örnekleri
+
+### 5. Python ve Flask ile Yapay Zeka Uygulamaları Geliştirme
+- Python programlamanın temelleri
+- Python kodlama ve paketleme
+- Flask web framework
+- RESTful API geliştirme
+- Unit testing
+- Code quality (Pylint)
+- **Laboratuvar Projeleri:**
+  - Flask temel uygulamaları
+  - Matematik modülleri (mymath)
+  - RESTful API geliştirme
+  - Unit test örnekleri
+  - Flask final projesi
+
+### 6. React ile Frontend
 - React component yapısı
 - State ve props yönetimi
+- Hooks (useState, useEffect, custom hooks)
+- Redux state management
 - Modern React geliştirme
-- **Laboratuvar:** İlk React uygulaması (myfirstapp)
+- **Laboratuvar Projeleri:**
+  - İlk React uygulaması (myfirstapp)
+  - Todo list uygulaması
+  - Feedback form
+  - Event planner
+  - Content rating uygulaması
+  - Custom hooks örnekleri
+  - E-plant shopping (Redux Toolkit)
+  - E-commerce uygulaması (RTK)
+  - Conference event planner
 
-### 5. Bulut Bilişime Giriş
+### 7. SQL ve Django ile Uygulama Geliştirme
+- SQL ve veritabanları
+- Django ORM (Object-Relational Mapping)
+- Django models, views, templates
+- Django authentication
+- Full stack Django uygulamaları
+- Django uygulaması birleştirme ve dağıtma
+- **Laboratuvar Projeleri:**
+  - Django ORM temelleri (lab1-lab5)
+  - İlk Django projesi
+  - Django authentication projesi
+  - CRUD işlemleri
+  - Class-based views
+  - Bootstrap entegrasyonu
+  - Final cloud app with database
+
+### 8. Veri Bilimi ve Yapay Zeka için Python
+- Python programlamanın temelleri
+- Python veri yapıları
+- Veri ile çalışma
+- API'ler ve veri toplama
+- **Laboratuvar:** Jupyter Notebook dosyaları ve veri analizi örnekleri
+
+### 9. Bulut Bilişime Giriş
 - Bulut altyapısı ve hizmet modelleri
+- Dağıtım modelleri (Public, Private, Hybrid)
 - Bulut depolama çözümleri
 - Bulut güvenliği ve izleme
-- Dağıtım modelleri
-- Gelişen teknolojiler ve trendler
+- Bulutun hızlandırdığı gelişen teknolojiler
+- Ortaya çıkan eğilimler ve uygulamalar
+- İş vakaları ve uygulamalar
+
+### 10. Containers, Docker, Kubernetes, OpenShift
+- Containerization kavramları
+- Docker temelleri
+- Kubernetes orchestration
+- OpenShift platformu
 
 ## 💻 Laboratuvar Projeleri
 
 Bu repository'de her modül için yapılan laboratuvar projeleri bulunmaktadır:
 
-- **Git/GitHub:** Versiyon kontrolü uygulamaları
-- **HTML/CSS/JS:** Çeşitli web uygulamaları ve örnekler
-- **React:** Modern frontend geliştirme projeleri
+- **Git/GitHub:** Versiyon kontrolü uygulamaları ve branch yönetimi
+- **HTML/CSS/JS:** Çeşitli web uygulamaları, form validasyonu, DOM manipülasyonu
+- **Node.js/Express:** Backend API geliştirme, authentication, middleware
+- **Python/Flask:** Web uygulamaları, RESTful API, unit testing
+- **React:** Modern frontend uygulamaları, state management, hooks
+- **Django:** Full stack web uygulamaları, ORM, authentication, CRUD işlemleri
+- **Veri Bilimi:** Jupyter Notebook örnekleri ve veri analizi
 
 Her laboratuvar projesi kendi klasöründe, çalıştırılabilir kod örnekleriyle birlikte bulunmaktadır.
 
@@ -117,20 +266,76 @@ Bu repository'deki notlar ve açıklamalar, AI asistanı ile yaptığım teknik 
 - Pratik örnekler ve kod snippet'leri sağlar
 - Sorun çözme yaklaşımlarını gösterir
 - En iyi uygulamalar ve ipuçları içerir
+- Hata ayıklama ve optimizasyon önerileri sunar
 
 ## 📝 Notlar
 
 - Tüm PDF dosyaları ders materyallerinden çıkarılan önemli notları içerir
 - HTML örnekleri ve laboratuvar projeleri çalıştırılabilir durumdadır
 - Her modül için hem teorik bilgiler hem de pratik uygulamalar mevcuttur
+- Django projeleri için virtual environment (venv) kullanılmıştır
+- React projeleri Vite ile oluşturulmuştur
+- Node.js projeleri npm ile yönetilmektedir
 
 ## 🚀 Kullanım
 
+### HTML/CSS/JavaScript Projeleri
 1. İlgili modül klasörüne gidin
-2. PDF dosyalarını inceleyerek teorik bilgileri öğrenin
-3. Laboratuvar klasöründeki projeleri çalıştırarak pratik yapın
-4. HTML/JS projeleri için bir web tarayıcısı açmanız yeterlidir
-5. React projeleri için `npm install` ve `npm run dev` komutlarını kullanın
+2. HTML dosyasını bir web tarayıcısında açın
+
+### Node.js Projeleri
+```bash
+cd "Node.js ile Backend/Labaratuvar/[proje-adi]"
+npm install
+node index.js
+# veya
+npm start
+```
+
+### Python/Flask Projeleri
+```bash
+cd "Python ve Flask ile Yapay Zeka Uygulamaları Geliştirme/Labaratuvar/[proje-adi]"
+python server.py
+# veya
+flask run
+```
+
+### React Projeleri
+```bash
+cd "React ile Frontend/Labaratuvar/[proje-adi]"
+npm install
+npm run dev
+```
+
+### Django Projeleri
+```bash
+cd "SQL ve Django ile Uygulama Geliştirme/Labaratuvar/[proje-adi]"
+# Virtual environment aktifleştirin (Windows)
+djangoenv\Scripts\activate
+# veya (Linux/Mac)
+source djangoenv/bin/activate
+
+python manage.py runserver
+```
+
+### Jupyter Notebook
+```bash
+cd "Veri Bilimi ve Yapay Zeka için Python/Labaratuvar"
+jupyter notebook
+```
+
+## 🛠️ Teknolojiler
+
+Bu projede kullanılan teknolojiler:
+
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+), React, Redux, Bootstrap, Tailwind CSS
+- **Backend:** Node.js, Express.js, Python, Flask, Django
+- **Veritabanları:** SQLite, SQL
+- **Versiyon Kontrolü:** Git, GitHub
+- **Containerization:** Docker, Kubernetes, OpenShift
+- **Veri Bilimi:** Python, Jupyter Notebook, Pandas, NumPy
+- **Build Tools:** Vite, npm, pip
+- **Testing:** Unit testing (Python), Jest (React)
 
 ## 📄 Lisans
 
@@ -160,14 +365,19 @@ The repository is organized by modules:
 - Introduction to Software Engineering
 - Introduction to Git and GitHub
 - Introduction to HTML, CSS, and JavaScript
+- Backend with Node.js
+- Python and Flask for AI Application Development
 - Frontend with React
+- Application Development with SQL and Django
+- Python for Data Science and AI
 - Introduction to Cloud Computing
+- Containers, Docker, Kubernetes, OpenShift
 
 ## 🎯 Modules
 
 ### 1. Introduction to Software Engineering
 - Programming fundamentals
-- Software development processes
+- Software development processes and lifecycle
 - Software architecture and design patterns
 - Career opportunities in software engineering
 
@@ -190,25 +400,95 @@ The repository is organized by modules:
   - DOM manipulation examples
   - Responsive design (Bootstrap & Tailwind)
 
-### 4. Frontend with React
+### 4. Backend with Node.js
+- Introduction to Node.js
+- Server-side JavaScript programming
+- Asynchronous programming (callbacks, Promises, async/await)
+- Express.js framework
+- RESTful API development
+- **Laboratory Projects:**
+  - Express folder structure
+  - Express book reviews application
+  - Cloud applications with Node.js and React
+  - Node.js authentication and user management
+
+### 5. Python and Flask for AI Application Development
+- Python programming fundamentals
+- Python coding and packaging
+- Flask web framework
+- RESTful API development
+- Unit testing
+- Code quality (Pylint)
+- **Laboratory Projects:**
+  - Basic Flask applications
+  - Math modules
+  - RESTful API development
+  - Unit test examples
+  - Flask final project
+
+### 6. Frontend with React
 - React component structure
 - State and props management
+- Hooks (useState, useEffect, custom hooks)
+- Redux state management
 - Modern React development
-- **Laboratory:** First React application (myfirstapp)
+- **Laboratory Projects:**
+  - First React application
+  - Todo list application
+  - Feedback form
+  - Event planner
+  - Content rating application
+  - Custom hooks examples
+  - E-commerce applications with Redux Toolkit
 
-### 5. Introduction to Cloud Computing
+### 7. Application Development with SQL and Django
+- SQL and databases
+- Django ORM (Object-Relational Mapping)
+- Django models, views, templates
+- Django authentication
+- Full stack Django applications
+- Django application integration and deployment
+- **Laboratory Projects:**
+  - Django ORM fundamentals
+  - First Django project
+  - Django authentication project
+  - CRUD operations
+  - Class-based views
+  - Bootstrap integration
+  - Final cloud app with database
+
+### 8. Python for Data Science and AI
+- Python programming fundamentals
+- Python data structures
+- Working with data
+- APIs and data collection
+- **Laboratory:** Jupyter Notebook files and data analysis examples
+
+### 9. Introduction to Cloud Computing
 - Cloud infrastructure and service models
+- Deployment models (Public, Private, Hybrid)
 - Cloud storage solutions
 - Cloud security and monitoring
-- Deployment models
-- Emerging technologies and trends
+- Emerging technologies accelerated by cloud
+- Emerging trends and applications
+- Business cases and applications
+
+### 10. Containers, Docker, Kubernetes, OpenShift
+- Containerization concepts
+- Docker fundamentals
+- Kubernetes orchestration
+- OpenShift platform
 
 ## 💻 Laboratory Projects
 
 This repository contains laboratory projects for each module:
-- **Git/GitHub:** Version control applications
-- **HTML/CSS/JS:** Various web applications and examples
-- **React:** Modern frontend development projects
+- **Git/GitHub:** Version control applications and branch management
+- **HTML/CSS/JS:** Various web applications, form validation, DOM manipulation
+- **Node.js/Express:** Backend API development, authentication, middleware
+- **Python/Flask:** Web applications, RESTful API, unit testing
+- **React:** Modern frontend applications, state management, hooks
+- **Django:** Full stack web applications, ORM, authentication, CRUD operations
+- **Data Science:** Jupyter Notebook examples and data analysis
 
 Each laboratory project is in its own folder with runnable code examples.
 
@@ -219,20 +499,76 @@ The notes and explanations in this repository are compiled from technical conver
 - Practical examples and code snippets
 - Problem-solving approaches
 - Best practices and tips
+- Debugging and optimization suggestions
 
 ## 📝 Notes
 
 - All PDF files contain important notes extracted from course materials
 - HTML examples and laboratory projects are in runnable condition
 - Each module includes both theoretical knowledge and practical applications
+- Django projects use virtual environment (venv)
+- React projects are created with Vite
+- Node.js projects are managed with npm
 
 ## 🚀 Usage
 
+### HTML/CSS/JavaScript Projects
 1. Navigate to the relevant module folder
-2. Review PDF files to learn theoretical information
-3. Practice by running projects in the laboratory folder
-4. For HTML/JS projects, simply open them in a web browser
-5. For React projects, use `npm install` and `npm run dev` commands
+2. Open the HTML file in a web browser
+
+### Node.js Projects
+```bash
+cd "Node.js ile Backend/Labaratuvar/[project-name]"
+npm install
+node index.js
+# or
+npm start
+```
+
+### Python/Flask Projects
+```bash
+cd "Python ve Flask ile Yapay Zeka Uygulamaları Geliştirme/Labaratuvar/[project-name]"
+python server.py
+# or
+flask run
+```
+
+### React Projects
+```bash
+cd "React ile Frontend/Labaratuvar/[project-name]"
+npm install
+npm run dev
+```
+
+### Django Projects
+```bash
+cd "SQL ve Django ile Uygulama Geliştirme/Labaratuvar/[project-name]"
+# Activate virtual environment (Windows)
+djangoenv\Scripts\activate
+# or (Linux/Mac)
+source djangoenv/bin/activate
+
+python manage.py runserver
+```
+
+### Jupyter Notebook
+```bash
+cd "Veri Bilimi ve Yapay Zeka için Python/Labaratuvar"
+jupyter notebook
+```
+
+## 🛠️ Technologies
+
+Technologies used in this project:
+
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+), React, Redux, Bootstrap, Tailwind CSS
+- **Backend:** Node.js, Express.js, Python, Flask, Django
+- **Databases:** SQLite, SQL
+- **Version Control:** Git, GitHub
+- **Containerization:** Docker, Kubernetes, OpenShift
+- **Data Science:** Python, Jupyter Notebook, Pandas, NumPy
+- **Build Tools:** Vite, npm, pip
+- **Testing:** Unit testing (Python), Jest (React)
 
 ## 📄 License
 
