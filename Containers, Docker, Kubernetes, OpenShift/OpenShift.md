@@ -1,0 +1,61 @@
+# OpenShift Nedir?
+
+OpenShift, Red Hat tarafından geliştirilen ve desteklenen, hibrit bulut stratejisi için tasarlanmış bir Kubernetes konteyner platformudur. Uygulamaların geliştirilmesinden üretime geçişine kadar olan süreçleri otomatikleştiren tam yığın operasyonlar sunar.
+
+## OpenShift'in Özellikleri
+
+- Uygulamalar, yüzlerce düğüm üzerinde binlerce örneğe saniyeler içinde ölçeklenebilir.
+- Geliştiricilere kapsamlı araçlar, çoklu dil desteği ve otomatik güncellemeler sunar.
+
+## OpenShift ve Kubernetes Karşılaştırması
+
+- OpenShift, bir ürünken Kubernetes açık kaynak bir projedir; OpenShift daha az esneklik sunar.
+- OpenShift, kullanıcı dostu bir web konsolu ve daha iyi güvenlik politikaları sunarken, Kubernetes daha fazla esneklik ve üçüncü taraf eklentileri ile desteklenir.
+
+## Build Süreci
+
+Build, girişleri bir nesneye dönüştürme sürecidir; örneğin, kaynak kodunu bir konteyner görüntüsüne dönüştürmek. Build, build stratejisi ve giriş kaynaklarını tanımlayan bir yapılandırma dosyası gerektirir.
+
+### Giriş Kaynakları ve Stratejileri
+
+- Build giriş kaynakları, inline Dockerfile tanımları, mevcut görüntülerden çıkarılan içerikler, Git depoları gibi çeşitli kaynaklardan oluşabilir.
+- Yaygın olarak kullanılan build stratejileri arasında source-to-image (S2I), Docker ve özel stratejiler bulunmaktadır.
+
+### Görüntü Akışları ve Otomasyon
+
+- Görüntü akışları, OpenShift içinde konteyner görüntülerini referans almak için bir soyutlamadır ve otomatik olarak yeni görüntü sürümleriyle güncellenir.
+- Build'leri otomatikleştirmek için webhook, görüntü değişikliği ve yapılandırma değişikliği tetikleyicileri kullanılabilir.
+
+## Operatörlerin Tanımı ve Amaçları
+
+Operatörler, Kubernetes API'sini genişleten özel denetleyicilerdir ve küme görevlerini otomatikleştirir. Operatörler, uygulamaları paketler, dağıtır ve yönetir, ayrıca sürekli gerçek zamanlı kararlarla uygulama oluşturma ve yapılandırma süreçlerini otomatikleştirir.
+
+### Özel Kaynak Tanımlamaları (CRD) ve Özel Denetleyiciler
+
+- CRD'ler, Kubernetes API'sinin işlevselliğini genişletir ve kullanıcıların özel kaynakları yönetmesine olanak tanır.
+- Özel denetleyiciler, kümenin gerçek durumunu yapılandırılmış durumla uzlaştırarak CRD verilerini yorumlar.
+
+### Operatör Çerçevesi ve Olgunluk Modeli
+
+- Operatör Çerçevesi, kodlama, test etme, dağıtım ve güncellemeleri kapsayan açık kaynaklı bir araç setidir.
+- Operatör Olgunluk Modeli, operatörlerin yönetim mantığının olgunluk aşamalarını tanımlar ve temel kurulumdan otomatik pilot aşamasına kadar uzanır.
+
+## Hizmet Ağı (Service Mesh)
+
+Bu içerik, Istio'nun hizmet ağı (service mesh) kavramını ve mikro hizmetlerle nasıl çalıştığını açıklamaktadır.
+
+### Hizmet Ağı Nedir?
+
+- Hizmet ağı, hizmetler arası iletişimi güvenli ve güvenilir hale getiren özel bir katmandır.
+- Istio, Kubernetes üzerinde yaygın olarak kullanılan platform bağımsız bir hizmet ağıdır.
+
+### Istio'nun Temel Kavramları
+
+- **Bağlantı**: Istio, trafik akışını akıllıca kontrol eder ve canary dağıtımları gibi modelleri destekler.
+- **Güvenlik**: Hizmetler arası iletişimi kimlik doğrulama, yetkilendirme ve şifreleme ile güvence altına alır.
+- **Gözlemlenebilirlik**: Istio, trafik akışını gözlemleme ve hata ayıklama için metrikler sağlar.
+
+### Mikro Hizmetlerle Çalışma
+
+- Istio, mikro hizmet mimarisi ile entegre çalışarak, hizmetler arası iletişimi yönetir.
+- Mikro hizmetlerin avantajları arasında bağımsız güncellemeler ve ölçeklenebilirlik bulunurken, zorlukları arasında güvenli iletişim ve hata yayılmasını önleme yer alır.
