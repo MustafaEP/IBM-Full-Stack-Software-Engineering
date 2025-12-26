@@ -137,3 +137,5 @@ göstermektedir.
 
 *Bu belge, bulut bilişim teknolojilerinin gerçek dünya uygulamalarını ve işletmelere sağladığı faydaları göstermek amacıyla hazırlanmıştır.*
 
+
+
