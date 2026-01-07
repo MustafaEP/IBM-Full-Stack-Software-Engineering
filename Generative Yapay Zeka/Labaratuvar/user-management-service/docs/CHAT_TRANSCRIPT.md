@@ -2,8 +2,6 @@
 
 Bu dosya, bu sohbet içinde yazılan **tüm kullanıcı prompt’larını** ve **asistan yanıtlarını** Markdown formatında arşivlemek için oluşturulmuştur.
 
-> Not: Bu transkript, yalnızca sohbet mesajlarını içerir. IDE/terminal çıktıları ve otomatik araç logları dahil edilmemiştir.
-
 ---
 
 ## 1) Kişiselleştirilmiş çevrimiçi öğrenme platformu (sunucu tarafı)
