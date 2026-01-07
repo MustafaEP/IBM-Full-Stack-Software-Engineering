@@ -8,7 +8,8 @@ import {
   UpdateMeBodySchema,
   UserPublicSchema
 } from "./users.schemas.js";
-import { changePasswordHandler, listUsersHandler, meHandler, updateMeHandler } from "./users.controller.js";
+import { changePasswordHandler, meHandler, updateMeHandler } from "./users.controller.js";
+import { listUsers } from "./users.service.js";
 
 export async function usersRoutes(app: FastifyInstance): Promise<void> {
   const t = app.withTypeProvider<ZodTypeProvider>();
@@ -61,7 +62,10 @@ export async function usersRoutes(app: FastifyInstance): Promise<void> {
         response: { 200: ListUsersResponseSchema }
       }
     },
-    listUsersHandler
+    async (request) => {
+      const { limit, cursor } = request.query;
+      return listUsers({ limit, cursor });
+    }
   );
 }
 

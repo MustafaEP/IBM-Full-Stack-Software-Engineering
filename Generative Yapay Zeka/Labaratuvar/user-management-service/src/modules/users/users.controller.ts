@@ -1,12 +1,8 @@
 import type { FastifyRequest } from "fastify";
 import type { z } from "zod";
 import { HttpError } from "../../infrastructure/http/errors.js";
-import {
-  ChangePasswordBodySchema,
-  ListUsersQuerySchema,
-  UpdateMeBodySchema
-} from "./users.schemas.js";
-import { changePassword, findUserById, listUsers, updateDisplayName } from "./users.service.js";
+import { ChangePasswordBodySchema, UpdateMeBodySchema } from "./users.schemas.js";
+import { changePassword, findUserById, updateDisplayName } from "./users.service.js";
 
 export async function meHandler(request: FastifyRequest) {
   if (!request.user) throw new HttpError(401, "Unauthorized", "unauthorized");
@@ -34,13 +30,6 @@ export async function changePasswordHandler(
     newPassword: request.body.newPassword
   });
   return { ok: true };
-}
-
-export async function listUsersHandler(
-  request: FastifyRequest<{ Querystring: z.infer<typeof ListUsersQuerySchema> }>
-) {
-  const { limit, cursor } = request.query;
-  return listUsers({ limit, cursor });
 }
 
 

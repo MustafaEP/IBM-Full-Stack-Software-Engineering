@@ -1,13 +1,12 @@
 FROM node:20-alpine AS base
 WORKDIR /app
 
-ENV NODE_ENV=production
-
 FROM base AS deps
 COPY package.json package-lock.json* ./
 RUN npm ci --omit=dev
 
 FROM base AS build
+ENV NODE_ENV=development
 COPY package.json package-lock.json* ./
 RUN npm ci
 COPY tsconfig.json ./
@@ -15,6 +14,7 @@ COPY src ./src
 RUN npm run build
 
 FROM base AS runner
+ENV NODE_ENV=production
 RUN addgroup -S app && adduser -S app -G app
 USER app
 

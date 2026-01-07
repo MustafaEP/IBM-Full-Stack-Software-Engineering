@@ -32,11 +32,20 @@ if (env.NODE_ENV === "production" && env.JWT_SECRET === DEFAULT_DEV_JWT_SECRET) 
 
 /**
  * CORS origins are intentionally opt-in.
- * If not set, we disable CORS to avoid accidental exposure.
+ * If not set:
+ * - production: disable CORS (avoid accidental exposure)
+ * - development/test: allow common localhost dev origins for convenience
  */
-export const corsOrigins = (process.env.CORS_ORIGINS ?? "")
+const rawCorsOrigins = (process.env.CORS_ORIGINS ?? "")
   .split(",")
   .map((s) => s.trim())
   .filter(Boolean);
+
+export const corsOrigins =
+  rawCorsOrigins.length > 0
+    ? rawCorsOrigins
+    : env.NODE_ENV === "production"
+      ? []
+      : ["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:3000"];
 
 
